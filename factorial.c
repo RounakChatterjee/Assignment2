@@ -1,3 +1,4 @@
+/*This program calculates the factorial of an inputted number along with the time the program takes to run*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
