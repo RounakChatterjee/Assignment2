@@ -1,3 +1,6 @@
+'''
+This program uses scipy package to calculate the factorial
+'''
 from scipy.special import factorial
 import timeit as t
 n = int(input("Enter a number = "))
