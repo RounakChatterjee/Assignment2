@@ -1,3 +1,6 @@
+'''
+This program calculates factorial using recusrion  technique
+'''
 import timeit as t
 def fact(n):
 	if(n == 1):
