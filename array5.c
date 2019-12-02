@@ -1,6 +1,7 @@
+/*Program depicts the writing of data to a binary file*/
 #include<stdio.h>
 #include<stdlib.h>
-float* stats(float arr[],int len)// a functin that takes array of arbitary
+float* stats(float arr[],int len)// a function that takes array of arbitary length
 {
 	
 int i ;
@@ -25,8 +26,6 @@ int main(void)
 	int i = 0;
 	for(i = 0;i<100;i++)
 		{p[i] = (i+1)*(i+1);}
-	/*printf("The Mean of the numbers = %f\n",stats(p,100)[0]);
-	printf("The variance of the numbers = %f\n",stats(p,100)[1]);*/
 	FILE *fp;
 	 fp = fopen( "file2.bin" , "wb" );
 	 float* str = stats(p,100);
