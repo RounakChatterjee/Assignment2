@@ -1,3 +1,15 @@
+/*This program depicts the way of breaking up programs in three files and compiling them together to produce complete results
+
+The files are:
+mainprog.c --> The main running file
+stats.c --> The support file
+statsh.h --> The header file for stats
+
+The CMD command that we used here is
+gcc mainprog.c stats.c statsh.h -o main
+
+will create a main.exe file to run the program
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include "statsh.h"
