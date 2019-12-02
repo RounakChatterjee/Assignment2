@@ -1,3 +1,4 @@
+/*Program decits the method of writing data to a readable text file.*/
 #include<stdio.h>
 #include<stdlib.h>
 float* stats(float arr[],int len)// a functin that takes array of arbitary
@@ -25,8 +26,6 @@ int main(void)
 	int i = 0;
 	for(i = 0;i<100;i++)
 		{p[i] = (i+1)*(i+1);}
-	/*printf("The Mean of the numbers = %f\n",stats(p,100)[0]);
-	printf("The variance of the numbers = %f\n",stats(p,100)[1]);*/
 	FILE *fp;
 	 fp = fopen( "file.txt" , "w" );
    fprintf(fp,"%f	%f",stats(p,100)[0],stats(p,100)[1]);
