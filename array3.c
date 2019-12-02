@@ -1,3 +1,4 @@
+/*Program depicts the effect of using calloc()*/
 #include<stdio.h>
 #include<stdlib.h>
 float* stats(float arr[],int len)// a functin that takes array of arbitary
