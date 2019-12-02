@@ -1,6 +1,7 @@
+/*This program takes 100 squared numbers and prints the mean and variance*/
 #include<stdio.h>
 #include<stdlib.h>
-float* stats(float arr[],int len)// a functin that takes array of arbitary
+float* stats(float arr[],int len)// a function that takes array of arbitary length 
 {
 	
 int i ;
@@ -16,7 +17,7 @@ for(i = 0;i<len;i++)
 stat[0] = stat[0]/(float)len;
 stat[1] = stat[1]/(float)len;
 stat[1] = (stat[1] - stat[0]*stat[0]);
-return stat;
+return stat; //returns the mean and variance as a 2D array
 } 
 int main(void)
 {
