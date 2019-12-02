@@ -1,3 +1,10 @@
+/*This program depicts the method to compile and run GSL package programs and are compared with the manual calculation that we did
+The CMD script that we used here is
+
+gcc array7.c -Wall -I"C:\...path...\include" -L"C:\...path...\lib" -lgslcblas -lgsl -lm -o array7
+
+this will create a output file array7.exe that we can use to run the program
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include <gsl/gsl_statistics.h>
