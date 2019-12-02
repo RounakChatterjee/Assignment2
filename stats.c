@@ -1,3 +1,4 @@
+/*The stats support file for mainprog.c*/
 #include<stdio.h>
 #include<stdlib.h>
 float* stats(float arr[],int len)// a functin that takes array of arbitary
